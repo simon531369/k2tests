@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Default suite">
   <test thread-count="5" verbose="2" name="Default test">
     <classes>
+      <class name="org.kushala.selenium.v2.App"/>
       <class name="org.kushala.selenium.v2.AppTest"/>
     </classes>
   </test> <!-- Default test -->
