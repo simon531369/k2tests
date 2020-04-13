@@ -27,7 +27,7 @@ public class AppTest {
 	  public void kushala() throws Throwable {
 		 
 //		 URL url = new URL("http://13.58.236.51:4452/wd/hub");
-		 URL url = new URL("http://172.31.43.200:5566/wd/hub");
+		 URL url = new URL("http://172.31.43.200:4455/wd/hub");
 		 DesiredCapabilities caps = new DesiredCapabilities().chrome();
 		 caps.setPlatform(Platform.LINUX);
 //		 DesiredCapabilities caps = DesiredCapabilities.chrome();
