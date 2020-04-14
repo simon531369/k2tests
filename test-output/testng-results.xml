@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="123387" started-at="2020-04-10T17:27:09 IST" finished-at="2020-04-10T17:29:13 IST">
+  <suite name="Default suite" duration-ms="123496" started-at="2020-04-14T17:53:56 IST" finished-at="2020-04-14T17:55:59 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="123387" started-at="2020-04-10T17:27:09 IST" finished-at="2020-04-10T17:29:13 IST">
-      <class name="org.kushala.selenium.v2.AppTest">
-        <test-method status="FAIL" signature="kushala()[pri:0, instance:org.kushala.selenium.v2.AppTest@2833cc44]" name="kushala" duration-ms="123184" started-at="2020-04-10T17:27:09 IST" finished-at="2020-04-10T17:29:13 IST">
+    <test name="Default test" duration-ms="123496" started-at="2020-04-14T17:53:56 IST" finished-at="2020-04-14T17:55:59 IST">
+      <class name="org.kushala.selenium.v2.App">
+        <test-method status="FAIL" signature="kushala()[pri:0, instance:org.kushala.selenium.v2.App@4d41cee]" name="kushala" duration-ms="123304" started-at="2020-04-14T17:53:56 IST" finished-at="2020-04-14T17:55:59 IST">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
@@ -24,7 +24,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
 at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-at org.kushala.selenium.v2.AppTest.kushala(AppTest.java:36)
+at org.kushala.selenium.v2.App.kushala(App.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,7 +91,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- kushala -->
-      </class> <!-- org.kushala.selenium.v2.AppTest -->
+      </class> <!-- org.kushala.selenium.v2.App -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
