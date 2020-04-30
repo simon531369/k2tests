@@ -22,7 +22,7 @@ public class Testgrid {
 		WebDriver driver=new RemoteWebDriver(url, cap);
 		driver.get("https://kushala.co.in");
 		Thread.sleep(5000);
-		driver.quit();
+		//driver.quit();
 		
 	}
 
