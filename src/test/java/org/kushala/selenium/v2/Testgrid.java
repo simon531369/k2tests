@@ -17,8 +17,8 @@ public class Testgrid {
 	{
 		DesiredCapabilities cap=DesiredCapabilities.chrome();
 		cap.setPlatform(Platform.LINUX);
-		//URL url=new URL ("http://localhost:4446/wd/hub");
-		URL url=new URL ("http://13.58.236.51:4444/wd/hub");
+		URL url=new URL ("http://localhost:4445/wd/hub");
+		//URL url=new URL ("http://13.58.236.51:4444/wd/hub");
 		WebDriver driver=new RemoteWebDriver(url, cap);
 		driver.get("https://kushala.co.in");
 		Thread.sleep(5000);
